@@ -47,6 +47,7 @@ textarea {
   font-size: 16px;
   outline: none;
   background: #724951;
+  color: white;
 }
 
 .message {
@@ -69,6 +70,6 @@ textarea {
   position: absolute;
   top: -20px;
   left: 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 14px;
 }

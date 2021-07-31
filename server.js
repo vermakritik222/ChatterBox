@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 const io = require("socket.io")(http);
 
 io.on("connection", (soket) => {
-  console.log("connected.....");
+  // console.log("connected.....");
   soket.on("message", (msg) => {
     soket.broadcast.emit("message", msg);
   });
