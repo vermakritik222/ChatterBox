@@ -10,26 +10,26 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #f8f8f8;
+  background: #382b2b;
   font-family: "Roboto", sans-serif;
 }
 section.chat__section {
   width: 800px;
   max-width: 90%;
-  background: #fff;
+  background: rgb(94, 50, 50);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .brand {
   padding: 20px;
-  background: #f1f1f1;
+  background: #4d1414;
   display: flex;
   align-items: center;
 }
 .brand h1 {
   text-transform: uppercase;
   font-size: 20px;
-  color: #444;
+  color: rgb(255, 255, 255);
   margin-left: 10px;
 }
 .message__area {
@@ -46,7 +46,7 @@ textarea {
   padding: 20px;
   font-size: 16px;
   outline: none;
-  background: #fbfbfb;
+  background: #724951;
 }
 
 .message {
@@ -57,18 +57,18 @@ textarea {
   position: relative;
 }
 .incoming {
-  background: #6f2232;
+  background: #550b24;
   color: #fff;
 }
 .outgoing {
-  background: #e9eafd;
-  color: #787986;
+  background: #724951;
+  color: #fff;
   margin-left: auto;
 }
 .message h4 {
   position: absolute;
   top: -20px;
   left: 0;
-  color: #333;
+  color: rgb(0, 0, 0);
   font-size: 14px;
 }
